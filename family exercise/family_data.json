@@ -1,0 +1,9 @@
+simpsons = `[
+    {"name": "Homer", "relation": "Father", "family": true, "image": "./assets/homer.jpg", "job": "Engineer", "hobbies": "eating"},
+    {"name": "Marge", "relation": "Mother", "family": true, "image": "./assets/marge.jpg", "job": "Housewife", "hobbies": "painting"},
+    {"name": "Bart", "relation": "Son", "family": true, "image": "./assets/bart.jpg", "job": "skater", "hobbies": "fooling"},
+    {"name": "Lisa", "relation": "Daughter", "family": true, "image": "./assets/lisa.jpg", "job": "smartass", "hobbies": "science"},
+    {"name": "Maggie", "relation": "Daughter", "family": true, "image": "./assets//maggie.jpg", "job": "baby", "hobbies": "eating"},
+    {"name": "Grandpa", "relation": "Grandfather", "family": false, "image": "./assets/abe.jpg", "job": "senior", "hobbies": "sleeping"},
+    {"name": "Herb", "relation": "Uncle", "family": false, "image": "./assets/herb.jpg", "job": "Engineer", "hobbies": "cooking"}
+    ]`; 
