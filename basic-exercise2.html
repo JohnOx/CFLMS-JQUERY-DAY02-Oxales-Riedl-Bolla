@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+	<meta http. eqiv = "refresh" content= "30">
+ <style>
+
+ 	.pics {
+		width: 150px;
+		height: 150px;
+		object-fit: cover;
+ 	}
+ 	img {
+ 		width: 100%;
+ 		height: 100%;
+ 	}
+ 	.complete {
+ 		background-color: green;
+ 	}
+     #wrapper {
+         display: flex row;
+     }
+
+     .row {
+        display: flex;
+        justify-content: space-around;
+     }
+
+ </style>
+</head>
+<body>
+    <div id="wrapper">
+        <div class="row" id="one">
+            <div class="pics"><img src="image/White_Gift_Box_with_Red_Bow_PNG_Image_2048x.webp"></div>
+            <div class="pics santa"><img src="image/santa-claus.png"></div>
+            <div class="pics"><img src="image/White_Gift_Box_with_Red_Bow_PNG_Image_2048x.webp"></div>
+        </div>
+
+            <div class="row" id="two">
+                <div class="pics"><img src="image/White_Gift_Box_with_Red_Bow_PNG_Image_2048x.webp"></div>
+                <div class="pics santa"><img src="image/santa-claus.png"></div>
+                <div class="pics"><img src="image/White_Gift_Box_with_Red_Bow_PNG_Image_2048x.webp"></div>
+            </div>
+
+                <div class="row" id="three">
+                    <div class="pics santa"><img src="image/santa-claus.png"></div>
+                    <div class="pics"><img src="image/White_Gift_Box_with_Red_Bow_PNG_Image_2048x.webp"></div>
+                    <div class="pics santa"><img src="image/santa-claus.png"></div>
+                </div>
+    </div>
+<script>
+    $(document).ready(function() {
+            
+    $('.santa').click(function() {
+        $(this).slideUp()
+    })
+
+    $('.santa').dblclick(function() {
+        $(this).hide()
+})
+});
+    </script>
+</script>
+</body>
+</html>
